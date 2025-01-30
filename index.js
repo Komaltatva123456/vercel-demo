@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(
   cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://vercel-demo-frontend-rosy.vercel.app',
     methods: 'GET,POST,PUT,DELETE,OPTIONS, PATCH',
 
   })
